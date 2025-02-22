@@ -1,6 +1,6 @@
 # TCPServer
 
-This is a simple single-threaded TCP server written in C++ using the Winsock2 API for Windows. The server accepts connections from clients, receives text input, converts it to uppercase, and sends it back. It supports basic error handling.
+This is a simple single-threaded TCP server written in C++.
 
 ## Features
 - Accepts TCP connections on a specified port.
