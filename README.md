@@ -1,4 +1,4 @@
-# TSPServer
+# TCPServer
 
 This is a simple single-threaded TCP server written in C++ using the Winsock2 API for Windows. The server accepts connections from clients, receives text input, converts it to uppercase, and sends it back. It supports basic error handling, command-line port specification, and optional Cyrillic (Russian) character support.
 
@@ -20,7 +20,7 @@ This is a simple single-threaded TCP server written in C++ using the Winsock2 AP
 ## Installation
 Clone this repository:
    ```cmd
-   git clone https://github.com/xrlmdev/TSPServer.git
+   git clone https://github.com/xrlmdev/TCPServer.git
    cd TCPServer
    ```
 ## Server running
