@@ -18,7 +18,18 @@ This is a simple single-threaded TCP server written in C++ using the Winsock2 AP
   - Telnet, Netcat (nc) for testing.
 
 ## Installation
-1. Clone this repository:
+Clone this repository:
    ```cmd
    git clone https://github.com/xrlmdev/TSPServer.git
    cd TCPServer
+   ```
+## Server running
+  ```cmd
+  chcp 1251
+  TCPServer.exe --port 8080
+  ```
+## Server testing using Telnet
+  ```cmd
+  chcp 1251
+  telnet localhost 8080
+  ```
